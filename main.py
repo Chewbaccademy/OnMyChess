@@ -1,4 +1,5 @@
-
+from game.Board import Board
 
 if __name__ == "__main__":
-    print("OK!")
+    board = Board()
+    print(board)
